@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/include"
+    android:background="@color/colorPrimary"
+
+
+    android:visibility="visible">
+
+
+
+
+
+
+    <Button
+        android:text="copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncopy"
+        android:layout_weight="1" />
+
+
+
+    <Button
+        android:text="cut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncut"
+        android:layout_weight="1" />
+    <Button
+        android:text="delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndelete"
+        android:layout_weight="1" />
+    <Button
+        android:text="share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnshare"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:text="zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncompress"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="unzip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnuncompress"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:text="rename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnrename"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:text="pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnpro"
+        android:layout_weight="1" />
+</LinearLayout>

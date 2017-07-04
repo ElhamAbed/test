@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:id="@+id/footer_border"
+            android:background="#D3D3D3"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/footer"
+            android:orientation="horizontal"
+
+            android:layout_height="20px" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#D3D3D3"
+            android:layout_width="wrap_content"
+
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/footer">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/tab1"
+                android:layout_width="180dp">
+                <ImageButton
+                    android:id="@+id/pasteimagebtn"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#D3D3D3"
+                    android:src="@drawable/pasteicon"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/pastetxt"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textSize="8dp"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:text="paste" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/tab2"
+                android:layout_width="180dp">
+                <ImageButton
+                    android:id="@+id/cancleimagebtn"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#D3D3D3"
+                    android:src="@drawable/cancelicon"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/canceltxt"
+                    android:textColor="#000000"
+                    android:textSize="8dp"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:text="cancel" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+

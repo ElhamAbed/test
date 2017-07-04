@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/footer_border"
+        android:background="#D3D3D3"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/footer"
+        android:orientation="horizontal"
+
+        android:layout_height="20px" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#D3D3D3"
+        android:layout_width="wrap_content"
+
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/footer">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:background="#D3D3D3"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/tab1"
+            android:layout_width="90dp">
+            <ImageButton
+                android:id="@+id/copyimagebtn"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:background="#D3D3D3"
+                android:src="@drawable/copyicon"
+                android:clickable="true"
+                android:fontFamily="sans-serif-light" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/copytxt"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="8dp"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:text="copy" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tab2"
+            android:layout_width="90dp">
+            <ImageButton
+                android:id="@+id/cutimagebtn"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:background="#D3D3D3"
+                android:src="@drawable/cuticon"
+                android:clickable="true"
+                android:fontFamily="sans-serif-light" />
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/cuttxt"
+                android:textColor="#000000"
+                android:textSize="8dp"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:text="cut" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tab3"
+            android:layout_width="90dp">
+            <ImageButton
+                android:id="@+id/deleteimangebtn"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#D3D3D3"
+                android:src="@drawable/deleteicon"
+                android:clickable="true"
+                android:fontFamily="sans-serif-light" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/deletetxt"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="delete" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tab4"
+            android:layout_width="90dp">
+            <ImageButton
+                android:id="@+id/moreimagebtn"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#D3D3D3"
+                android:src="@drawable/moreicon"
+                android:clickable="true"
+                android:fontFamily="sans-serif-light" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/moretxt"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                               android:text="more" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

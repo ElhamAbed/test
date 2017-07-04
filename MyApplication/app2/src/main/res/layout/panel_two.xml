@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/include2"
+    android:background="@color/colorPrimary"
+
+
+    android:visibility="visible">
+
+
+
+
+    <Button
+        android:text="paste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnpaste"
+        android:layout_weight="1" />
+    <Button
+        android:text="cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncancel"
+        android:layout_weight="1" />
+
+</LinearLayout>
